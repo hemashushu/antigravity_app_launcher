@@ -37,7 +37,7 @@ Keep the proxy service running. If Antigravity is already open, press **⌘Q** i
 
 ## Configuration
 
-The launcher reads `~/.config/antigravity_app_launcher.ason` each time it starts. The file is optional, and both fields may be omitted.
+The launcher reads `~/.config/antigravity_app_launcher.ason` each time it starts. The file is optional, and both fields may be omitted. A template file is provided at [`antigravity_app_launcher.ason`](antigravity_app_launcher.ason) in the repository root for convenience.
 
 ```ason
 {

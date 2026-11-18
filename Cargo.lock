@@ -12,6 +12,19 @@ dependencies = [
 ]
 
 [[package]]
+name = "antigravity-app-launcher"
+version = "0.1.0"
+dependencies = [
+ "ason",
+ "objc2",
+ "objc2-app-kit",
+ "objc2-foundation",
+ "serde",
+ "tempfile",
+ "url",
+]
+
+[[package]]
 name = "ason"
 version = "4.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -56,19 +69,6 @@ name = "cfg-if"
 version = "1.0.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4e7648175b45a9a48536d676f68d918270699102aa8dab5496df06904c914600"
-
-[[package]]
-name = "antigravity-app-launcher"
-version = "0.1.0"
-dependencies = [
- "ason",
- "objc2",
- "objc2-app-kit",
- "objc2-foundation",
- "serde",
- "tempfile",
- "url",
-]
 
 [[package]]
 name = "chrono"

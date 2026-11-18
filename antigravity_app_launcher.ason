@@ -1,0 +1,14 @@
+// Configuration template for Antigravity Proxy Launcher
+// Copy this file to ~/.config/antigravity_app_launcher.ason
+{
+    // Path to Antigravity.app.
+    // Supports absolute paths or paths beginning with ~/ or $HOME/.
+    // If omitted or left empty (""), the launcher automatically searches:
+    // 1. /Applications/Antigravity.app
+    // 2. ~/Applications/Antigravity.app
+    app_path: "~/Applications/Antigravity.app"
+
+    // HTTP or HTTPS proxy address.
+    // Default is "http://localhost:8118".
+    proxy: "http://localhost:8118"
+}
